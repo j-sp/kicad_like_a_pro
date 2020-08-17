@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:simple_intro-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -19,7 +20,7 @@ U 1 1 5F3A6B2C
 P 5600 1900
 F 0 "R1" V 5500 1900 50  0000 C CNN
 F 1 "R" V 5600 1900 50  0000 C CNN
-F 2 "" V 5530 1900 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5530 1900 50  0001 C CNN
 F 3 "~" H 5600 1900 50  0001 C CNN
 	1    5600 1900
 	0    1    1    0   
@@ -30,7 +31,7 @@ U 1 1 5F3A6C11
 P 4900 1900
 F 0 "D1" H 4900 2000 50  0000 C CNN
 F 1 "LED" H 4900 1750 50  0000 C CNN
-F 2 "" H 4900 1900 50  0001 C CNN
+F 2 "LED_THT:LED_D8.0mm" H 4900 1900 50  0001 C CNN
 F 3 "~" H 4900 1900 50  0001 C CNN
 	1    4900 1900
 	1    0    0    -1  
@@ -103,4 +104,12 @@ Text Notes 4650 2150 0    50   ~ 0
 A 5mm red LED
 Text Notes 5450 2250 0    50   ~ 0
 Current\nlimiting\nresistor
+Wire Notes Line
+	4050 1150 4050 2650
+Wire Notes Line
+	4050 2650 6900 2650
+Wire Notes Line
+	6900 2650 6900 1150
+Wire Notes Line
+	6900 1150 4050 1150
 $EndSCHEMATC
